@@ -27,7 +27,7 @@ def bubblesort(BubbleList:list):
     sorted = False
     while sorted == False:
         sorted = True
-        for i in range(0,BubbleList.__len__ - 1 ):
+        for i in range(0, (BubbleList.__len__() - 1) ):
             if BubbleList[i] > BubbleList[i+1]:
                 temp = BubbleList[i]
                 BubbleList[i] = BubbleList[i+1]
