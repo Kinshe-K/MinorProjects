@@ -65,5 +65,6 @@ print("Sorting done! Lets get ready for the next challenge")
 print("Recursive time!")
 print(recursive(0))
 
-
-
+print("So much printing (:")
+print("But I think this fun is over for now.")
+print("Actual First Project: Just a basic data structure -- nodes, queues, and stacks.")
