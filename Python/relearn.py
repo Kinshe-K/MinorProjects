@@ -1,3 +1,9 @@
+"""
+Relearn.py -- a basic program to get back into python
+Made by: Quinn S. Kelley
+Standalone file. 
+"""
+
 import os; ##Incase it isneeded
 
 def nameflip(string:str): 
