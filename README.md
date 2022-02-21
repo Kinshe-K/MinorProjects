@@ -8,8 +8,10 @@ Start Date: Febuary 21, 2022
 - relearn.py
     - Getting back into python after not using it in a while.
     - Made on 2/21/2022
+    - Finished on 2/21/2022
 - DataStructuring
     - Basic structure's, like nodes, queues, and stacks.
+    - Made on 2/21/2022
 
 ### Java Projects Made in Java 21.0:
 - 
