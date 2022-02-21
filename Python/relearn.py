@@ -17,10 +17,33 @@ def nameflip(string:str):
         flip += string[i];
     return flip;
 
+def bubblesort(BubbleList:list):
+    """
+    Sorts a list using the bubble sort method
+        Means -- Checks if next term is greater than the next term, if so flip it
+    Takes a BubbleList(list) to sort itself
+    Then returns the list
+    """
+    sorted = False
+    while sorted == False:
+        sorted = True
+        for i in range(0,BubbleList.__len__ - 1 ):
+            if BubbleList[i] > BubbleList[i+1]:
+                temp = BubbleList[i]
+                BubbleList[i] = BubbleList[i+1]
+                BubbleList[i+1] = temp
+                sorted = False 
 
 print("Hello again world, Im back") #Lets start with this
 val = input("Can you please tell me your name again? \n> ") 
 print("Welcome Back " + val + "!")
 val = nameflip(val)
 print("Flipped: " + val)
+
+print("Alright! We got the string flipped. Lets get ready to move onto more complicated things!")
+print("Sorting Time!")
+
+a_lis = [20, 10, 6, 2, 100, 92, 9, 1, 11, 52, 10, 0, 6]
+bubblesort(a_lis)
+print(a_lis)
 
