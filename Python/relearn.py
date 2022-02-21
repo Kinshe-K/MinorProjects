@@ -13,7 +13,7 @@ def nameflip(string:str):
     Returns the flipped string
     """
     flip = "";
-    for i in range((string.__len__() - 1),0,-1):
+    for i in range((string.__len__() - 1),-1,-1):
         flip += string[i];
     return flip;
 
