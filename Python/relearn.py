@@ -7,6 +7,11 @@ Standalone file.
 import os; ##Incase it isneeded
 
 def nameflip(string:str): 
+    """
+    Flips a string that is sent into it
+    string(str) is a string input into the function
+    Returns the flipped string
+    """
     flip = "";
     for i in range((string.__len__() - 1),0,-1):
         flip += string[i];
