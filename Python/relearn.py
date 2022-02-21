@@ -41,9 +41,11 @@ val = nameflip(val)
 print("Flipped: " + val)
 
 print("Alright! We got the string flipped. Lets get ready to move onto more complicated things!")
-print("Sorting Time!")
 
+print("Sorting Time!")
 a_lis = [20, 10, 6, 2, 100, 92, 9, 1, 11, 52, 10, 0, 6]
 bubblesort(a_lis)
 print(a_lis)
+
+print("Sorting done! Lets get ready for the next challenge")
 
