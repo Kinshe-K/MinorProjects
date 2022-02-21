@@ -34,6 +34,20 @@ def bubblesort(BubbleList:list):
                 BubbleList[i+1] = temp
                 sorted = False 
 
+def recursive(Val:int): 
+    """
+    A recursive practive function
+    takes in an integer(val), and prints it
+    then calls it again
+    """
+    if Val > 100:
+        return str(Val)
+    else: 
+        strval = ""
+        strval += str(Val)
+        strval += " " + recursive(Val + 1)
+        return strval
+
 print("Hello again world, Im back") #Lets start with this
 val = input("Can you please tell me your name again? \n> ") 
 print("Welcome Back " + val + "!")
@@ -48,4 +62,8 @@ bubblesort(a_lis)
 print(a_lis)
 
 print("Sorting done! Lets get ready for the next challenge")
+print("Recursive time!")
+print(recursive(0))
+
+
 
